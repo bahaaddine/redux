@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/329583.jpg);
+  /* (./component/movies/cinema-wallpaper-social-media-message-background-vector.jpg); */
+  -webkit-animation: backgroundScroll 20s linear infinite;
+animation: backgroundScroll 20s linear infinite;
+
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -400px 0;}
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+input {
+  width: 450px;
+  padding: 15px;
+  margin: 0 20px;
+}
+button {
+  padding: 10px 60px;
+}
+.done {
+  text-decoration: line-through;
+  text-decoration-color: rgb(171, 19, 19);
+}
+
+.baha {
+  background-color: blue;
+}
